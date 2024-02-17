@@ -1,6 +1,6 @@
-# Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-from Video Humor Detection
+# 🎬 Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-from Video Humor Detection
 
-## Preparations
+## 🏠 Preparations
 
 Clone this reposity:
 
@@ -50,7 +50,7 @@ CVLA
 
 Download our proposed dataset DY11K from [DY11K Download URL](), and unzip it into dataset folder.
 
-## Requirements
+## ⚙️ Requirements
 
 To run our code, please install all the dependency packages by using the following command:
 
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 **Note**: Different versions of packages (like `pytorch`, `transformers`, etc.) may lead to different results from the paper. However, the trend should still hold no matter what versions of packages you use.
 
-## Multiple data splits
+## 🎮 Multiple data splits
 
 To carry out experiments with multiple data splits (aggregate the results over 5 different seeds), you can use the following scripts:
 
@@ -74,7 +74,7 @@ do
 done
 ```
 
-## Experiments with multiple runs
+## 🚀 Experiments with multiple runs
 
 Multiple model training give a more robust measure of performance and a better estimate of the standard, you can use the following scripts:
 
@@ -91,24 +91,25 @@ Then run the following command to gather all the results:
 python tools/gather_result.py > gathered_result.log
 ```
 
-## Bugs or questions?
+## 📧 Bugs or questions?
 
-If you have any questions related to the code or the paper, feel free to email Yang (`yliucs@stu.suda.edu.cn`). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
+If you have any questions related to the code or the paper, feel free to email Yang (`yliu.cs.cn@gmail.com`). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
 
-## Acknowledgment
+## ❤️ Acknowledgment
 
 Thanks [Clover](https://github.com/LeeYN-43/Clover), [TVLT](https://github.com/zinengtang/TVLT), [nanoGPT](https://github.com/karpathy/nanoGPT) and [thop](https://github.com/Lyken17/pytorch-OpCounter) for their excellent code implementations, which aided later study and are referenced in this implementation as available source code.
 
-## Citation
+## 📜 Citation
 
 Please cite our paper if you use CVLA in your work:
 
 ```bibtex
-@article{liu2023cvla,
-  author={Yang Liu and Huanqin Ping and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
-  title={Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-from Video Humor Detection},
-  booktitle={Proc. of ACM MM},
-  publisher={{ACM}}, 
-  year={2023}
+@misc{liu2024commentaided,
+      title={Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection}, 
+      author={Yang Liu and Tongfei Shen and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
+      year={2024},
+      eprint={2402.09055},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
