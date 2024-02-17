@@ -5,8 +5,7 @@
 [Yang Liu](https://yliu-cs.github.io), Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li and Guodong Zhou
 
 <p>
-  <img src="figure/intro.png" height="200" />
-  <img src="figure/architecture.png" height="200" />
+  <img src="figure/architecture.png" height="300" />
 </p>
 
 The growing importance of multi-modal humor detection within affective computing correlates with the expanding influence of short-form video sharing on social media platforms. In this paper, we propose a novel two-branch hierarchical model for short-form video humor detection (SVHD), named Comment-aided Video-Language Alignment (CVLA) via data-augmented multi-modal contrastive pre-training. Notably, our CVLA not only operates on raw signals across various modal channels but also yields an appropriate multi-modal representation by aligning the video and language components within a consistent semantic space. The experimental results on two humor detection datasets, including DY11k and UR-FUNNY, demonstrate that CVLA dramatically outperforms state-of-the-art and several competitive baseline approaches. Our dataset, code and model are available here.
