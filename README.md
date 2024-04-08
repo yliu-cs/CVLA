@@ -56,7 +56,7 @@ CVLA
 └── requirements.txt
 ```
 
-Download our proposed dataset DY11K from [DY11K Download URL](https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x), and unzip it into dataset folder.
+Download our proposed dataset DY11k from [DY11k Download URL](https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x), and unzip it into dataset folder.
 
 ## ⚙️ Requirements
 
@@ -112,24 +112,10 @@ Thanks [Clover](https://github.com/LeeYN-43/Clover), [TVLT](https://github.com/z
 Please cite our paper if you use CVLA in your work:
 
 ```bibtex
-@article{DBLP:journals/corr/abs-2402-09055,
-  author       = {Yang Liu and
-                  Tongfei Shen and
-                  Dong Zhang and
-                  Qingying Sun and
-                  Shoushan Li and
-                  Guodong Zhou},
-  title        = {Comment-aided Video-Language Alignment via Contrastive Pre-training
-                  for Short-form Video Humor Detection},
-  journal      = {CoRR},
-  volume       = {abs/2402.09055},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2402.09055},
-  doi          = {10.48550/ARXIV.2402.09055},
-  eprinttype    = {arXiv},
-  eprint       = {2402.09055},
-  timestamp    = {Mon, 19 Feb 2024 15:25:43 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2402-09055.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{conf/icmr/Liu24CVLA,
+  author       = {Yang Liu and Tongfei Shen and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
+  title        = {Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection},
+  booktitle    = {Proc. of ICMR},
+  year         = {2024}
 }
 ```
