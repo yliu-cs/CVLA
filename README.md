@@ -1,6 +1,6 @@
 # 🎬 Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-from Video Humor Detection
 
-[Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-from Video Humor Detection](https://arxiv.org/abs/2402.09055)
+[Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-from Video Humor Detection](https://dl.acm.org/doi/10.1145/3652583.3658094)
 
 [Yang Liu](https://yliu-cs.github.io), Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li and Guodong Zhou
 
