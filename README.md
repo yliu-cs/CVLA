@@ -116,6 +116,7 @@ Please cite our paper if you use CVLA in your work:
   author       = {Yang Liu and Tongfei Shen and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
   title        = {Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection},
   booktitle    = {Proc. of ICMR},
+  pages        = {442--450},
   year         = {2024}
 }
 ```
